@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
-            <h3 className="text-xl font-bold mb-6">WebSolutions Pro</h3>
+            <h3 className="text-xl font-bold mb-6">Webuster</h3>
             <p className="text-neutral-400 mb-6">
               Professional web solutions company specializing in custom website design, app development, and digital services.
             </p>
@@ -77,7 +77,7 @@ const Footer = () => {
         
         <div className="border-t border-neutral-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-neutral-400 mb-4 md:mb-0">
-            © 2023 WebSolutions Pro. All rights reserved.
+            © 2025 Webuster. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-neutral-400 hover:text-white transition-colors duration-300">Privacy Policy</a>

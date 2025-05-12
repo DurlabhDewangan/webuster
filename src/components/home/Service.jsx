@@ -255,37 +255,6 @@ const Services = () => {
     setCurrentService(null);
   };
 
-  useEffect(() => {
-    // Animate service cards on scroll
-    const animateOnScroll = () => {
-      const serviceCards = document.querySelectorAll('#services .grid > div');
-      
-      serviceCards.forEach((card, index) => {
-        const rect = card.getBoundingClientRect();
-        if (rect.top <= window.innerHeight * 0.8 && rect.bottom >= 0) {
-          setTimeout(() => {
-            card.classList.add('opacity-100', 'translate-y-0');
-            card.classList.remove('opacity-0', 'translate-y-8');
-          }, index * 100);
-        }
-      });
-    };
-
-    // Add initial classes for animation
-    const serviceCards = document.querySelectorAll('#services .grid > div');
-    serviceCards.forEach(card => {
-      card.classList.add('opacity-0', 'translate-y-8', 'transition-all', 'duration-500');
-    });
-
-    // Run on page load and scroll
-    window.addEventListener('load', animateOnScroll);
-    window.addEventListener('scroll', animateOnScroll);
-
-    return () => {
-      window.removeEventListener('load', animateOnScroll);
-      window.removeEventListener('scroll', animateOnScroll);
-    };
-  }, []);
 
   return (
     <section id="services" className="py-20 bg-neutral-50">

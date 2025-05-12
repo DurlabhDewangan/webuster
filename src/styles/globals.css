@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 /* Base styles */
 :root {
   --primary-color: #2563EB;

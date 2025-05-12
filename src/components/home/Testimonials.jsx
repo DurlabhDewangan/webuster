@@ -6,7 +6,7 @@ const Testimonials = () => {
       id: 1,
       name: 'Sarah Johnson',
       role: 'CEO, TechStart Inc.',
-      content: 'WebSolutions Pro transformed our online presence completely. Their team delivered a website that not only looks stunning but has significantly increased our conversion rates. Their attention to detail and commitment to quality is unmatched.',
+      content: 'Webuster transformed our online presence completely. Their team delivered a website that not only looks stunning but has significantly increased our conversion rates. Their attention to detail and commitment to quality is unmatched.',
       rating: 5,
       image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8cHJvZmVzc2lvbmFsJTJCd29tYW58ZW58MHx8fHwxNzQ1OTI4ODQ3fDA&ixlib=rb-4.0.3&q=80&w=400'
     },
@@ -14,7 +14,7 @@ const Testimonials = () => {
       id: 2,
       name: 'Michael Chen',
       role: 'Marketing Director, Global Retail',
-      content: 'The mobile app developed by WebSolutions Pro has been a game-changer for our business. User engagement has skyrocketed, and the intuitive design has received overwhelming positive feedback from our customers.',
+      content: 'The mobile app developed by Webuster has been a game-changer for our business. User engagement has skyrocketed, and the intuitive design has received overwhelming positive feedback from our customers.',
       rating: 5,
       image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8cHJvZmVzc2lvbmFsJTJCbWFufGVufDB8fHx8MTc0NTkyODg4MHww&ixlib=rb-4.0.3&q=80&w=400'
     },
@@ -22,7 +22,7 @@ const Testimonials = () => {
       id: 3,
       name: 'Emily Rodriguez',
       role: 'Founder, Creative Minds Agency',
-      content: 'Working with WebSolutions Pro was a fantastic experience. They took the time to understand our unique needs and delivered a custom solution that perfectly aligns with our brand identity and business goals.',
+      content: 'Working with Webuster was a fantastic experience. They took the time to understand our unique needs and delivered a custom solution that perfectly aligns with our brand identity and business goals.',
       rating: 4,
       image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8cHJvZmVzc2lvbmFsJTJCd29tYW4lMkJwb3J0cmFpdHxlbnwwfHx8fDE3NDU5Mjg5MTl8MA&ixlib=rb-4.0.3&q=80&w=400'
     }

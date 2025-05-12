@@ -17,7 +17,7 @@ const About = () => {
             <div className="mb-8">
               <h3 className="text-2xl font-bold mb-4">Who We Are</h3>
               <p className="text-neutral-600 mb-6">
-                Founded in 2015, WebStudio has grown from a small team of passionate designers into a full-service digital agency with a global client base. We believe in creating digital experiences that not only look beautiful but deliver measurable results.
+                Founded in 2015, Webuster has grown from a small team of passionate designers into a full-service digital agency with a global client base. We believe in creating digital experiences that not only look beautiful but deliver measurable results.
               </p>
               <p className="text-neutral-600">
                 Our collaborative approach ensures that we understand your business goals and deliver solutions that exceed expectations. We're not just service providers – we're your digital partners.
