@@ -2,7 +2,7 @@ import { useState } from 'react';
 import CategoryHead from '../components/categories/Categoryhead';
 import IndustrySolutions from '../components/categories/IndustrySolutions';
 import AppCard from '../components/categories/AppCard';
-import FilterBar from '../components/categories/filterBar';
+import FilterBar from '../components/categories/FilterBar';
 import EnterpriseSolutions from '../components/categories/EnterpriseSolutions';
 import IntegrationPartners from '../components/categories/IntegrationPartners';
 import FAQ from '../components/categories/FAQ';
