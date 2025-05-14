@@ -1,4 +1,4 @@
-const CategoryHeader = ({ title, description }) => {
+const CategoryHead = ({ title, description }) => {
   return (
     <div className="text-center mb-8">
       <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">{title}</h1>
@@ -7,4 +7,4 @@ const CategoryHeader = ({ title, description }) => {
   );
 };
 
-export default CategoryHeader;
+export default CategoryHead;

@@ -1,9 +1,10 @@
 import { useState } from 'react';
-import CategoryHeader from '../components/categories/CategoryHeader';
+import CategoryHead from '../components/categories/Categoryhead';
 import IndustrySolutions from '../components/categories/IndustrySolutions';
 import AppCard from '../components/categories/AppCard';
 import FilterBar from '../components/categories/filterBar';
 import EnterpriseSolutions from '../components/categories/EnterpriseSolutions';
+import IntegrationPartners from '../components/categories/IntegrationPartners';
 import IntegrationPartners from '../components/categories/IntegrationPartners';
 import FAQ from '../components/categories/FAQ';
 
@@ -77,11 +78,12 @@ const Categories = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-8">
-        <CategoryHeader 
-          title={businessSolutions[activeCategory].title}
-          description={businessSolutions[activeCategory].description}
-        />
+    
         
+<CategoryHead
+     title={businessSolutions[activeCategory].title}
+          description={businessSolutions[activeCategory].description}/>
+
         <FilterBar 
           activeCategory={activeCategory}
           setActiveCategory={setActiveCategory}
