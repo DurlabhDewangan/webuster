@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import CategoryHeader from '../components/Categories/CategoryHeader';
+import CategoryHeader from '../components/categories/CategoryHeader';
 import IndustrySolutions from '../components/categories/IndustrySolutions';
 import AppCard from '../components/categories/AppCard';
 import FilterBar from '../components/categories/filterBar';
