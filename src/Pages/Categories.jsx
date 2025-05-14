@@ -5,7 +5,6 @@ import AppCard from '../components/categories/AppCard';
 import FilterBar from '../components/categories/filterBar';
 import EnterpriseSolutions from '../components/categories/EnterpriseSolutions';
 import IntegrationPartners from '../components/categories/IntegrationPartners';
-import IntegrationPartners from '../components/categories/IntegrationPartners';
 import FAQ from '../components/categories/FAQ';
 
 const Categories = () => {
