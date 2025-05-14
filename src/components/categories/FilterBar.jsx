@@ -13,9 +13,9 @@ const FilterBar = ({ activeCategory, setActiveCategory }) => {
           Restaurants
         </button>
         <button
-          onClick={() => setActiveCategory('shops')}
+          onClick={() => setActiveCategory('retail')} // ✅ FIXED HERE
           className={`px-4 py-2 text-sm font-medium rounded-r-lg ${
-            activeCategory === 'shops'
+            activeCategory === 'retail'
               ? 'bg-blue-600 text-white'
               : 'bg-white text-gray-700 hover:bg-gray-100'
           }`}
