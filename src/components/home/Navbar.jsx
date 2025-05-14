@@ -1,4 +1,7 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,13 +47,22 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:block">
             <ul className="flex items-center space-x-8">
-              <li><a href="#hero" className="text-neutral-700 hover:text-neutral-900 transition-all duration-300">Home</a></li>
+           <Link to="/" className="text-neutral-700 hover:text-neutral-900 transition-all duration-300">
+  Home
+</Link>
+
               <li><a href="#about" className="text-neutral-700 hover:text-neutral-900 transition-all duration-300">About</a></li>
               <li><a href="#services" className="text-neutral-700 hover:text-neutral-900 transition-all duration-300">Services</a></li>
               <li><a href="#portfolio" className="text-neutral-700 hover:text-neutral-900 transition-all duration-300">Portfolio</a></li>
               <li><a href="#testimonials" className="text-neutral-700 hover:text-neutral-900 transition-all duration-300">Testimonials</a></li>
               <li><a href="#process" className="text-neutral-700 hover:text-neutral-900 transition-all duration-300">Process</a></li>
               <li><a href="#contact" className="text-neutral-700 hover:text-neutral-900 transition-all duration-300">Contact</a></li>
+              <li>
+  <Link to="/categories" className="text-neutral-700 hover:text-neutral-900 transition-all duration-300">
+    Categories
+  </Link>
+</li>
+
               <li><a href="#contact" className="ml-4 px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-all duration-300">Get Started</a></li>
             </ul>
           </nav>
@@ -72,13 +84,22 @@ const Navbar = () => {
         {/* Mobile Navigation */}
  <div id="mobile-menu" className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden fixed top-[80px] left-0 w-full bg-white pt-2 pb-4 border-t border-neutral-200 z-40`}>
   <ul className="flex flex-col space-y-4 px-4">
-    <li><a href="#hero" className="block px-2 py-1 text-neutral-700 hover:text-neutral-900 transition-all duration-300" onClick={toggleMenu}>Home</a></li>
+   <Link to="/" className="text-neutral-700 hover:text-neutral-900 transition-all duration-300">
+  Home
+</Link>
+
     <li><a href="#about" className="block px-2 py-1 text-neutral-700 hover:text-neutral-900 transition-all duration-300" onClick={toggleMenu}>About</a></li>
     <li><a href="#services" className="block px-2 py-1 text-neutral-700 hover:text-neutral-900 transition-all duration-300" onClick={toggleMenu}>Services</a></li>
     <li><a href="#portfolio" className="block px-2 py-1 text-neutral-700 hover:text-neutral-900 transition-all duration-300" onClick={toggleMenu}>Portfolio</a></li>
     <li><a href="#testimonials" className="block px-2 py-1 text-neutral-700 hover:text-neutral-900 transition-all duration-300" onClick={toggleMenu}>Testimonials</a></li>
     <li><a href="#process" className="block px-2 py-1 text-neutral-700 hover:text-neutral-900 transition-all duration-300" onClick={toggleMenu}>Process</a></li>
     <li><a href="#contact" className="block px-2 py-1 text-neutral-700 hover:text-neutral-900 transition-all duration-300" onClick={toggleMenu}>Contact</a></li>
+    <li>
+  <Link to="/categories" className="block px-2 py-1 text-neutral-700 hover:text-neutral-900 transition-all duration-300" onClick={toggleMenu}>
+    Categories
+  </Link>
+</li>
+
     <li><a href="#contact" className="block mt-4 px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-all duration-300 text-center" onClick={toggleMenu}>Get Started</a></li>
   </ul>
 </div>
