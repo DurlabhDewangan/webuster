@@ -1,47 +1,6 @@
-import { useEffect } from 'react';
 
 const Hero = () => {
-  useEffect(() => {
-    // Animation for hero elements
-    const heroTitle = document.querySelector('#hero h1');
-    const heroDesc = document.querySelector('#hero p');
-    const heroCta = document.querySelector('#hero .flex.flex-col.sm\\:flex-row');
-    const heroImg = document.querySelector('#hero .relative.bg-white');
-    
-    setTimeout(() => {
-      heroTitle.style.opacity = '0';
-      heroDesc.style.opacity = '0';
-      heroCta.style.opacity = '0';
-      heroImg.style.opacity = '0';
-      heroImg.style.transform = 'translateY(20px)';
-      
-      setTimeout(() => {
-        heroTitle.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-        heroDesc.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-        heroCta.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-        heroImg.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
-        
-        heroTitle.style.opacity = '1';
-        heroTitle.style.transform = 'translateY(0)';
-        
-        setTimeout(() => {
-          heroDesc.style.opacity = '1';
-          heroDesc.style.transform = 'translateY(0)';
-          
-          setTimeout(() => {
-            heroCta.style.opacity = '1';
-            heroCta.style.transform = 'translateY(0)';
-            
-            setTimeout(() => {
-              heroImg.style.opacity = '1';
-              heroImg.style.transform = 'translateY(0)';
-            }, 200);
-          }, 200);
-        }, 200);
-      }, 100);
-    }, 300);
-  }, []);
-
+ 
   return (
     <section id="hero" className="pt-28 pb-20 bg-neutral-50 overflow-hidden">
       <div className="container mx-auto px-4">
