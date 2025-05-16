@@ -85,7 +85,7 @@ const Navbar = () => {
  <div id="mobile-menu" className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden fixed top-[80px] left-0 w-full bg-white pt-2 pb-4 border-t border-neutral-200 z-40`}>
   <ul className="flex flex-col space-y-4 px-4">
    <Link to="/" className="text-neutral-700 hover:text-neutral-900 transition-all duration-300">
-  Home
+   Home
 </Link>
 
     <li><a href="#about" className="block px-2 py-1 text-neutral-700 hover:text-neutral-900 transition-all duration-300" onClick={toggleMenu}>About</a></li>
